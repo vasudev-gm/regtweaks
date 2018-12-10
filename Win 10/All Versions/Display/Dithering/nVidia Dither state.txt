@@ -1,0 +1,70 @@
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\State\DisplayDatabase\YOUR_DISPLAY_NAME_HERE
+
+OR 
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\DisplayDatabase\YOUR_DISPLAY_NAME_HERE
+
+------------------------------------------------------------------------
+
+Add into your exported registry file one of the following setting:
+
+ditherState - Enabled; ditherBits - 6 bit; ditherMode - SpatialDynamic
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,00,00,00,ed,00,00,00
+
+ditherState - Enabled; ditherBits - 6 bit; ditherMode - SpatialStatic
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,00,01,ef,00,00,00
+
+ditherState - Enabled; ditherBits - 6 bit; ditherMode - SpatialDynamic2x2
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,00,02,f0,00,00,00
+
+ditherState - Enabled; ditherBits - 6 bit; ditherMode - SpatialStatic2x2
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,00,03,f1,00,00,00
+
+ditherState - Enabled; ditherBits - 6 bit; ditherMode - Temporal
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,00,04,f2,00,00,00
+
+------------------------------------------------------------------------
+
+ditherState - Enabled; ditherBits - 8 bit; ditherMode - SpatialDynamic
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,01,00,ef,00,00,00
+
+ditherState - Enabled; ditherBits - 8 bit; ditherMode - SpatialStatic
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,01,01,f0,00,00,00
+
+ditherState - Enabled; ditherBits - 8 bit; ditherMode - SpatialDynamic2x2
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,01,02,f1,00,00,00
+
+ditherState - Enabled; ditherBits - 8 bit; ditherMode - SpatialStatic2x2
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,01,03,f2,00,00,00
+
+ditherState - Enabled; ditherBits - 8 bit; ditherMode - Temporal
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,01,04,f3,00,00,00
+
+------------------------------------------------------------------------
+
+ditherState - Enabled; ditherBits - 10 bit; ditherMode - SpatialDynamic
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,02,00,f0,00,00,00
+
+ditherState - Enabled; ditherBits - 10 bit; ditherMode - SpatialStatic
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,02,01,f1,00,00,00
+
+ditherState - Enabled; ditherBits - 10 bit; ditherMode - SpatialDynamic2x2
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,02,02,f2,00,00,00
+
+ditherState - Enabled; ditherBits - 10 bit; ditherMode - SpatialStatic2x2
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,02,03,f3,00,00,00
+
+ditherState - Enabled; ditherBits - 10 bit; ditherMode - Temporal
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,01,01,02,04,f4,00,00,00
+
+------------------------------------------------------------------------
+ditherState - Default
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,00,00,01,04,f1,00,00,00
+
+
+ditherState - Disabled
+"DitherRegistryKey"=hex:db,01,00,00,10,00,00,00,02,00,01,04,f3,00,00,00
+------------------------------------------------------------------------
+
+Import your new registry settings and reboot your OS.
+

@@ -125,6 +125,10 @@ Windows 10 1903 Build 18305 (or higher) is required to enable the internal Sandb
 Via command line, `setx /M MP_FORCE_USE_SANDBOX 1`. To disable it (default) use 0.
 
 
+#### How do I upgrade Windows 10 Evaluation to Full version!?
+
+Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion` and change the EditionID value data from EnterpriseEval to Enterprise. Next, change the value data of the ProductName value from Windows 10 Enterprise Evaluation to Windows 10 Enterprise. This does not work on LTSC.
+
 
 ## Official Links
 - [Upgrade to Windows 10: FAQ](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq)

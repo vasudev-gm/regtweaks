@@ -115,6 +115,16 @@ I think [this guide here](https://www.windowscentral.com/how-use-dism-command-li
 You still can use the old legacy drivers (if provided) and even without official support you are able to install the driver with the device manager "have-a-disk" method but several functions aren't available. Keep in mind that LTSB/LTSB is not meant to be used as "normal" OS (fpr e.g. exactly this reason). 
 
 
+#### How do I enable Windows Sandbox Feature and how does it work?!
+
+Windows 10 1903 Build 18305 (or higher) is required to enable the internal Sandbox function. There is a techniqual explanation given [here]https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849).
+
+
+#### How do I enable Windows Defender Sandbox feature?!
+
+Via command line, `setx /M MP_FORCE_USE_SANDBOX 1`. To disable it (default) use 0.
+
+
 
 ## Official Links
 - [Upgrade to Windows 10: FAQ](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq)

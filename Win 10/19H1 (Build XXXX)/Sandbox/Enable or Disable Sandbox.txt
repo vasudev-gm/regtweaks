@@ -1,0 +1,16 @@
+Via DISM
+        Dism /online /Enable-Feature /FeatureName:"Containers-DisposableClientVM" -All
+
+
+Disable 
+         Dism /online /Disable-Feature /FeatureName:"Containers-DisposableClientVM"
+
+
+
+Via PowerShell
+         Enable-WindowsOptionalFeature –FeatureName "Containers-DisposableClientVM" -All -Online
+
+
+Disable
+        Disable-WindowsOptionalFeature –FeatureName "Containers-DisposableClientVM" -Online
+

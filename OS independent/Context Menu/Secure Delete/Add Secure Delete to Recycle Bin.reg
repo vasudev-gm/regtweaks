@@ -7,5 +7,5 @@ Windows Registry Editor Version 5.00
 "Icon"="imageres.dll,-5305"
 
 [HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell\SecureDelete\command]
-@="cmd /c \"sdelete -p 3 -s \"C:\\$Recycle.Bin\\*\" && taskkill /f /im explorer.exe & start explorer.exe\""
+@="cmd /c \"sdelete -p 3 -s \"C:\\$Recycle.Bin\\*\""
 

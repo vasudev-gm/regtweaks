@@ -12,6 +12,7 @@ The list is checked against:
 
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- |
+Flac files can't be played | Metadata being cut short in File Explorer and other locations | // | Fixed in 19H1 build | Will be fixed next patchday (unconfirmed?) 
 Event ID 1534 | User Profile Service Event 1534 warnings appear in Event Manager | See [here](https://social.technet.microsoft.com/Forums/en-US/50a24520-2ea6-47e7-995b-c2de46d2401d/user-profile-service-event-1534?forum=win10itpronetworking) | // | //
 Mapped network drive may fail to reconnect | You're unable to connect or re-connect to your network drive(s) | An [official workaround exist](https://support.microsoft.com/en-us/help/4471218/mapped-network-drive-may-fail-to-reconnect-in-windows-10-version-1809) | KB4469342 (rolled-out Dec. 2018) | //
 I'm getting Intel Audio Controller version 9.21.0.3755 Update | You get the Intel Audio Driver without any need via WUS | Uninstall it manually, see [here](https://blogs.msdn.microsoft.com/matthew_van_eerde/2018/10/12/if-windows-update-sent-you-intel-audio-controller-version-9-21-0-3755-by-mistake-uninstall-it/) or exclude the drivers/updates via [WuMgr](https://github.com/DavidXanatos/wumgr) | // | //

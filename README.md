@@ -3,7 +3,6 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 
 ## Microsoft pulls Windows 10 October Update (version 1809)
 
-(https://www.google.co.in/amp/s/amp.tomshardware.com/news/microsoft-delays-windows-10-october-2018-update-intel-drivers,38126.html)
 * - All download links to the refresh ISO's and ESD files can be found [here](https://gist.github.com/CHEF-KOCH/6faf4dd1923bbe13e5dd8685672281bb).
 
 
@@ -15,11 +14,10 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 
-Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course a backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
+**Before** you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course a backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
 
 
 

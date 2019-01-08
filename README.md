@@ -3,12 +3,7 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 
 ## Microsoft pulls Windows 10 October Update (version 1809)
 
-
-Microsoft cites problems with the latest update package deleting user files. [Microsoft has paused the rollout of Windows 10 October 2018 Update (version 1809)](https://www.engadget.com/2018/10/06/windows-10-october-update-delete-pulled/), the latest version of the Windows 10 operating system, which Microsoft released this week, on Tuesday, October 2. In a [support document updated today](https://support.microsoft.com/en-us/help/4464619/windows-10-update-history), October 6, the Redmond-based OS maker said it took this decision after users complained that v1809 had deleted files after the update. The cause seems that the [Download folder was silently by default added to the Disk Cleanup tool list](https://www.windowslatest.com/2018/10/08/disk-cleanup-can-now-wipe-your-downloads-folder-in-windows-10-version-1809/) which gets executed based on what is set to the task schedule. 
-
-
-* - [KB4464330](https://support.microsoft.com/en-us/help/4464330/windows-10-update-kb4464330) fixes the issue. [A RTM refresh build is pushed to Insiders](https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/). 
-* - [Intel Driver Issues Force Another Windows 10 October 2018 Update Delay](https://www.google.co.in/amp/s/amp.tomshardware.com/news/microsoft-delays-windows-10-october-2018-update-intel-drivers,38126.html)
+(https://www.google.co.in/amp/s/amp.tomshardware.com/news/microsoft-delays-windows-10-october-2018-update-intel-drivers,38126.html)
 * - All download links to the refresh ISO's and ESD files can be found [here](https://gist.github.com/CHEF-KOCH/6faf4dd1923bbe13e5dd8685672281bb).
 
 

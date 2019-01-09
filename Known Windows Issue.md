@@ -25,7 +25,7 @@ Edge, Apps and Store getting no updates or can't connect | Whenever Ipv6 is disa
 My provider doesn't offer Printer Drivers | Since 1809 each print driver comes over WSUS, the print driver standards are now [Mopria](https://mopria.org/de/what-is-mopria) | You can only download the driver online or via Mopria (this is often offered by the manufracturer) as "normal" driver update | // | [This is by design](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/What-s-new-in-printing-in-Windows-10-version-1809/ba-p/267182) 
 
 
-## Install Language Packs (1809+)
+## Install Language Packs on Build 1809 or higher
 
 Language packs will still be avbl. via [seperated .iso files](https://www.microsoft.com/de-de/store/collections/localexperiencepacks?rtc=1).
 
@@ -121,7 +121,7 @@ Windows 10 1511 | // | // | // |
 Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4091664/kb4091664-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091664) | 08. Jan. 2019 |
 Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4091663/kb4091663-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091663) | 08. Jan. 2019 |
 Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4090007/intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4090007) | 08. Jan. 2019 |
-Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server) | [Download](https://www.catalog.update.microsoft.com/search.aspx?q=4100347) | 10. Oct. 2018 |
+Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server) | [Download](https://www.catalog.update.microsoft.com/search.aspx?q=4100347) | 08. Jan. 2019 |
 Windows 10 1809 | [KB4465065](https://support.microsoft.com/en-us/help/4465065/kb4465065-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=kb4465065) | 27. Nov 2018 |
 
 

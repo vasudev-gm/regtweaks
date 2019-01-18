@@ -1,11 +1,6 @@
 Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
-## Microsoft pulls Windows 10 October Update (version 1809)
-
-* - All download links to the refresh ISO's and ESD files can be found [here](https://gist.github.com/CHEF-KOCH/6faf4dd1923bbe13e5dd8685672281bb).
-
-
 <p align="center">
   <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/Current%20Windows.jpg")">
 </p>

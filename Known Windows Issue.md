@@ -3,6 +3,19 @@ The following _known issues_ are currently present in Windows 1809 (October Upda
 This overview is provides 'as it comes' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix.
 
 
+## Windows 10 Builds Overview
+
+| Version |        Code name        |     Marketing name     | Build |
+| :-----: | ----------------------- | ---------------------- | :---: |
+|  1507   | Threshold 1 (TH1)       | Threshold 1            | 10240 |
+|  1511   | Threshold 2 (TH2)       | November Update        | 10586 |
+|  1607   | Redstone 1 (RS1)        | Anniversary Update     | 14393 |
+|  1703   | Redstone 2 (RS2)        | Creators Update        | 15063 |
+|  1709   | Redstone 3 (RS3)        | Fall Creators Update   | 16299 |
+|  1803   | Redstone 4 (RS4)        | April 2018 Update      | 17134 |
+|  1809   | Redstone 5 (RS5)        | October 2018 Update    | 17763 |
+|  1903   | 19H1                    | April 2019 Update      | //    |
+
 The list is checked against:
 * Windows 10 RS 5 RTM Build 1809 Refresh (17763.107) Enterprise
 * Please don't ask for Home/Pro versions!

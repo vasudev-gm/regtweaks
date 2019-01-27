@@ -74,15 +74,15 @@ In order to get RDP (Remote Desktop Protocol) in Home Editions simply use [rdpwr
 Project History
 ------------
 
-- [x] 15.09.2018  Placeholder Logo added
-- [x] 04.05.2018	Mach2 will be integrated into the GUI, until then I provide links to the project and an external guide how to find hidden Windows features in Insider Builds
+- [x] 15.09.2018    Placeholder Logo added
+- [x] 04.05.2018    Mach2 will be integrated into the GUI, until then I provide links to the project and an external guide how to find hidden Windows features in Insider Builds
 - [x] 18.07.2017    GUI is done, some internal fixes before rolling out at the end of this year, some cleanups are necessary
 - [x] 13.04.2017    Second and last GUI beta test
 - [x] 26.01.2017    First beta GUI tests
 - [x] 31.05.2016    First internal GUI tests 
-- [x] 01.09.2015	All tweaks are now in English.
-- [x] 25.08.2015	Added some image creation tools which are able handle the registry tweaks.
-- [x] 18.08.2015	Initial upload and first release.
+- [x] 01.09.2015    All tweaks are now in English.
+- [x] 25.08.2015    Added some image creation tools which are able handle the registry tweaks.
+- [x] 18.08.2015    Initial upload and first release.
 
 
 
@@ -113,3 +113,4 @@ Research
 * [NTLite](https://www.ntlite.com)
 * [WinToolkit](https://www.Wincert.net)
 * [Patch Tuesday Dashboard](https://patchtuesdaydashboard.com)
+* [NSA Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)

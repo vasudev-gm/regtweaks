@@ -25,6 +25,7 @@ The list is checked against:
 
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- | 
+[Abusing Exchange: One API call away from Domain Admin](https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/) | Unpatched 0-Day avbl. the issue is not fixed | reg delete HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa /v DisableLoopbackCheck /f | // | Microsoft needs to fix the hole in Microsoft Exchange Server
 False Notifications in Action Center | Windows 10 Notifications & Action Center notification messages may show a mismatch | Via PowerShell `Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppxManifest.xml” -verbose }` or delete `Usrclass.dat` file | // | //
 Flac files can't be played | Metadata being cut short in File Explorer and other locations | // | Fixed in 19H1 build | Will be fixed next patchday (unconfirmed?) 
 Event ID 1534 | User Profile Service Event 1534 warnings appear in Event Manager | See [here](https://social.technet.microsoft.com/Forums/en-US/50a24520-2ea6-47e7-995b-c2de46d2401d/user-profile-service-event-1534?forum=win10itpronetworking) | // | //

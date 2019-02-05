@@ -74,11 +74,51 @@ Language packs will still be avbl. via [seperated .iso files](https://www.micros
 
 [Supported CPU's](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server):
 
-* Broadwell Server E, EP, EP4S
-* Broadwell Server EX
-* Skylake Server SP (H0, M0, U0)
-* Skylake D (Bakerville)
-* Skylake X (Basin Falls)
++ (106A5) Nehalem EP & Nehalem WS
++ (106E5) Lynnfield
++ (106E5) Lynnfield Xeon
++ (20655) Arrandale
++ (20655) Clarkdale
++ (206A7) Sandy Bridge
++ (206A7) Sandy Bridge Xeon E3
++ (206D7) Sandy Bridge Server EN/EP/EP4S
++ (206E6) Nehalem EX
++ (206F2) Westmere EX (EGL, WSM)
++ (306A9) Gladden
++ (306A9) Ivy Bridge
++ (306A9) Ivy Bridge Xeon E3
++ (306C3) Haswell (including H, S)
++ (306C3) Haswell Xeon E3
++ (306D4) Broadwell U/Y
++ (306E7) Ivy Bridge Server EX
++ (306F4) Haswell Server EX
++ (40651) Haswell ULT
++ (40661) Haswell Perf Halo
++ (40671) Broadwell H 43e
+– (406E3) Skylake U/Y & Skylake U23e
++ (50654) Skylake D (Bakerville)
++ (50654) Skylake Server
++ (50654) Skylake W
++ (50654) Skylake X (Basin Falls)
++ (50662) Broadwell DE V1
++ (50663) Broadwell DE V2,V3
++ (50664) Broadwell DE Y0
++ (50665) Broadwell DE A1
++ (506C2) Broxton
++ (506C9) Apollo Lake D0
++ (506CA) Apollo Lake E0
+– (506E3) Skylake H/S & Skylake Xeon E3
++ (506F1) Denverton (GLM)
+– [14393+] (806E9) Kaby Lake U/Y & Kaby Lake U23e
++ (806EA) Coffee Lake U43e
++ (806EA) Kaby Lake Refresh U 4+2
++ (906E9) Kaby Lake G/S/X/G
++ (906E9) Kaby Lake Xeon E3
+– [14393+] (906EA) Coffee Lake H (6+2) & Coffee Lake S (6+2)
+– [14393+] (906EA) Coffee Lake S (6+2) Xeon E
+– [14393+] (906EA) Coffee Lake S (4+2) Xeon E
+– [14393+] (906EA) Coffee Lake S (6+2) x/KBP
+– [14393+] (906EB) Coffee Lake S (4+2)
 
 Patched .dll's:
 

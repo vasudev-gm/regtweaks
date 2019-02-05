@@ -109,16 +109,18 @@ Language packs will still be avbl. via [seperated .iso files](https://www.micros
 + (506CA) Apollo Lake E0
 – (506E3) Skylake H/S & Skylake Xeon E3
 + (506F1) Denverton (GLM)
-– [14393+] (806E9) Kaby Lake U/Y & Kaby Lake U23e
 + (806EA) Coffee Lake U43e
 + (806EA) Kaby Lake Refresh U 4+2
 + (906E9) Kaby Lake G/S/X/G
 + (906E9) Kaby Lake Xeon E3
-– [14393+] (906EA) Coffee Lake H (6+2) & Coffee Lake S (6+2)
-– [14393+] (906EA) Coffee Lake S (6+2) Xeon E
-– [14393+] (906EA) Coffee Lake S (4+2) Xeon E
-– [14393+] (906EA) Coffee Lake S (6+2) x/KBP
-– [14393+] (906EB) Coffee Lake S (4+2)
+
+Old:
++ [14393+] (806E9) Kaby Lake U/Y & Kaby Lake U23e
++ [14393+] (906EA) Coffee Lake H (6+2) & Coffee Lake S (6+2)
++ [14393+] (906EA) Coffee Lake S (6+2) Xeon E
++ [14393+] (906EA) Coffee Lake S (4+2) Xeon E
++ [14393+] (906EA) Coffee Lake S (6+2) x/KBP
++ [14393+] (906EB) Coffee Lake S (4+2)
 
 Patched .dll's:
 

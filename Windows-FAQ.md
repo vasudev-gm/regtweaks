@@ -132,3 +132,8 @@ Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion` an
 
 ## Official Links
 - [Upgrade to Windows 10: FAQ](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq)
+
+
+### How do I remove my MS Account from Win 10 User-login?
+
+Go to regedit: `HKEY_USERS\.DEFAULT\Software\Microsoft\IdentityCRL\StoredIdentities` there is an entry where you can delete the @(microsoft).com Key entry. Since Build 1809 there is a integrated option: Settings -> Accounts -> Your Info-> "Sign in with a local account instead" which can be choosed. 

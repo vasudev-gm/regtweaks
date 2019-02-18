@@ -1,3 +1,8 @@
+#### Is there a professional Windows Telemetry analysis available? 
+
+Yes, there is. [Microsoft itself provides basic information](https://answers.microsoft.com/en-us/windows/forum/windows_10-performance/microsoft-compatibility-telemetry-what-is-it-and/7653b847-23f1-42c4-9390-ba2d35978e4e) regarding telemetry. However, this is very basic and not really an in-depth guidance. A more _helpful_ analysis can be found [here](https://www.privateinternetaccess.com/blog/2018/11/534-ways-that-windows-10-tracks-you-from-german-cyberintelligence/). 
+
+
 #### How do I move from an Intel CPU+Mobo to AMD CPU+Mobo (or vice versa) without reinstalling Windows?
 
 Start > Run > sysprep. Select "OOBE", tick "Generalize" (sysprep /generalize), and select "Shutdown". Then replace your motherboard. The next time Windows boots, it should act like it's the first time boot, and setup all your drivers from scratch. Keep in mind that Windows might wipe all external drivers, so you need the new ones + maybe others like graphics drivers. You also have to re-activate Windows except if you [link the key to your MS Account](https://www.windowscentral.com/how-link-your-windows-10-product-key-microsoft-account).
@@ -5,12 +10,12 @@ Start > Run > sysprep. Select "OOBE", tick "Generalize" (sysprep /generalize), a
 The alternative is to use [Macrium Reflect](https://www.macrium.com/reflectfree).
 
 
-#### Can I use the MAK key to activate a Retail version?
+#### Can I use the MAK key to activate a "Retail" Windows Version?
 
-Yup.
+Yes, you can.
 
 
-#### Should I Upgrade to Windows 10?
+#### Should I upgrade to Windows 10?
 
 Those who aren’t concerned about if they have to upgrade are usually wondering if they should upgrade. So should you upgrade to Windows 10? Barring some compelling reason for not doing so (like you can’t get drivers for a piece of hardware your job depends on) there’s very little reason to not upgrade to Windows 10.
 

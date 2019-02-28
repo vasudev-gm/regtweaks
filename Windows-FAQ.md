@@ -1,3 +1,7 @@
+#### How to force the update to Windows 10 manually?
+In CMD or PowerSHell (with Admin rights) type in: `wuauclt.exe /updatenow`.
+
+
 #### Is there a professional Windows Telemetry analysis available? 
 
 Yes, there is. [Microsoft itself provides basic information](https://answers.microsoft.com/en-us/windows/forum/windows_10-performance/microsoft-compatibility-telemetry-what-is-it-and/7653b847-23f1-42c4-9390-ba2d35978e4e) regarding telemetry. However, this is very basic and not really an in-depth guidance. A more _helpful_ analysis can be found [here](https://www.privateinternetaccess.com/blog/2018/11/534-ways-that-windows-10-tracks-you-from-german-cyberintelligence/). 

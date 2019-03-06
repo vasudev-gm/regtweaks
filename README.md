@@ -8,7 +8,8 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 **Current Status: Over 700+ tweaks**
 
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
+![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
+![Twitter Follow](https://img.shields.io/twitter/follow/@CKsTechNews.svg?label=Follow%20%40CKsTechNews&style=social)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 
@@ -45,11 +46,19 @@ Any problems, questions or something wrong?
 
 
 
-Find registry settings yourself
+Find _hidden_ registry settings yourself
 ------------
 
 To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video which you can find over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
 
+
+Reboot myth
+------------
+
+There are several myths and disinformation about how the Windows Registry actually work, one of them is that you need to reboot. There are several methods in order to [apply registry changes without a reboot](https://www.thewindowsclub.com/how-to-make-registry-changes-take-effect-immediately-without-restart). 
+
+* Kill explorer.exe and restart it
+* Log off and then log back in (recommend)
 
 
 Find hidden Windows features yourself

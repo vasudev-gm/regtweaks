@@ -1,3 +1,8 @@
+#### How do I change and manage the protocols and cipher suites?
+
+The official documentation about the registry entries are avbl. [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). However, the defaults in Windows 10 are fine and I suggest to not touch them since it might break some websites/applications. I only recommend to touch these settings if you're a server owner (with MS Windows Server). 
+
+
 #### How to force the update to Windows 10 manually?
 In CMD or PowerSHell (with Admin rights) type in: `wuauclt.exe /updatenow`.
 

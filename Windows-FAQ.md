@@ -1,3 +1,26 @@
+### How to switch from Insider to Slow Ring and vice versa?
+
+```
+; UIContentType (REG_SZ)
+; can accept `Current` , 'Active'
+
+; UIRing (REG_SZ)
+; WIF = Fast and Skip Ahead
+; WIS = Slow Ring
+; RP = Release Preview
+
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Selection
+```
+
+* Fast ring + Skip Ahead = RS_PRERELEASE with inbox app updates from the Microsoft Store
+* Fast Ring = Major Build releases, very few servicing builds.
+* Slow Ring = Major Build with minor build fixes attached.
+* Release Preview Ring = Major Build change at a release milestone and then a continued series of Servicing Builds until the next release milestone is reached.
+
+
+
 #### How do I change and manage the protocols and cipher suites?
 
 The official documentation about the registry entries are avbl. [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). However, the defaults in Windows 10 are fine and I suggest to not touch them since it might break some websites/applications. I only recommend to touch these settings if you're a server owner (with MS Windows Server). 

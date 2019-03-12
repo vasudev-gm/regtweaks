@@ -18,6 +18,34 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Selection
 * Release Preview Ring = Major Build change at a release milestone and then a continued series of Servicing Builds until the next release milestone is reached.
 
 
+### How to opt-in into Skip Ahead Ring Branch (manually)
+
+```
+; UIContentType (REG_SZ)
+: needs to be set to "Active"
+
+; UIRing (REG_SZ)
+; needs to be set to WIF
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Selection
+```
+
+```
+; ContentType (REG_SZ)
+; needs to be set to "Skip"
+
+; Ring (REG_SZ)
+; needs to be set to "Skip"
+
+; RingId (REG_DWORD)
+: needs to be set to 10 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\Applicability
+```
+
+After you're done settig the registry settings you can head over to Settings > Update and Security and click on “Check for Updates” to download the latest Skip Ahead build. You can optionally head to Settings > Update and Security > Windows Insider Program to check if your device now shows Skip Ahead as the preferred Ring.
+
+
 #### How do I change and manage the protocols and cipher suites?
 
 The official documentation about the registry entries are avbl. [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). However, the defaults in Windows 10 are fine and I suggest to not touch them since it might break some websites/applications. I only recommend to touch these settings if you're a server owner (with MS Windows Server). 

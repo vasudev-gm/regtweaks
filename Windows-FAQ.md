@@ -2,14 +2,12 @@
 
 ```
 ; UIContentType (REG_SZ)
-; can accept `Current` , 'Active'
+; can accept `Current` & 'Active'
 
 ; UIRing (REG_SZ)
 ; WIF = Fast and Skip Ahead
 ; WIS = Slow Ring
 ; RP = Release Preview
-
-
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Selection
 ```
@@ -18,7 +16,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Selection
 * Fast Ring = Major Build releases, very few servicing builds.
 * Slow Ring = Major Build with minor build fixes attached.
 * Release Preview Ring = Major Build change at a release milestone and then a continued series of Servicing Builds until the next release milestone is reached.
-
 
 
 #### How do I change and manage the protocols and cipher suites?
@@ -42,7 +39,7 @@ Start > Run > sysprep. Select "OOBE", tick "Generalize" (sysprep /generalize), a
 The alternative is to use [Macrium Reflect](https://www.macrium.com/reflectfree).
 
 
-#### Can I use the MAK key to activate a "Retail" Windows Version?
+#### Can I use the MAK key to activate a "Retail" Windows version(s)?
 
 Yes, you can.
 
@@ -50,6 +47,7 @@ Yes, you can.
 #### Should I upgrade to Windows 10?
 
 Those who aren’t concerned about if they have to upgrade are usually wondering if they should upgrade. So should you upgrade to Windows 10? Barring some compelling reason for not doing so (like you can’t get drivers for a piece of hardware your job depends on) there’s very little reason to not upgrade to Windows 10.
+
 
 #### Do Windows 8.1 drivers work with Windows 10?
 

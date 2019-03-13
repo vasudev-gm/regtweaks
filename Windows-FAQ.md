@@ -1,3 +1,20 @@
+### How to detect current firmware mode (BIOS or UEFI)?
+
+Windows PE/Setup mode can detect in which mode you are.
+
+```
+; PEFirmwareType
+; 0x1 = BIOS
+; 0x2 = UEFI
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control
+```
+
+Windows own boot manager check then if you're os has the bootmgr or EFI folder. 
+* `%SystemDrive%\bootmgr` = BIOS
+* `\EFI\Microsoft\Boot\bootmgfw.efi` = UEFI
+
+
 ### How to switch from Insider to Slow Ring and vice versa?
 
 ```

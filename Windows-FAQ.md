@@ -1,6 +1,18 @@
+### How do I do manually execute updates only below Build 1709?
+
+Only Windows 10 Build 1709 and higher has a button for this, so let's do this via takeown and icacls. 
+
+```
+takeown /f "%WINDIR%\System32\UsoClient.exe" /a
+icacls "%WINDIR%\System32\UsoClient.exe" /inheritance:r /remove "Adminstrator" "Authentificated Users"" "Users" "System"
+```
+
+This will show "Update access denied" in the event error viewer, which now allows you to take control over the update mechanism. 
+
+
 ### How to detect current firmware mode (BIOS or UEFI)?
 
-Windows PE/Setup mode can detect in which mode you are.
+Windows PE/Setup mode can automatically detect in which mode you currently are:
 
 ```
 ; PEFirmwareType

@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; GPO
+; Computer Configuration -> Administrative Templates -> Windows Components -> Windows Updates
+; Configure auto-restart required notification for updates
+
+; Up to 7 days
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"SetComplianceDeadline"=-
+"ConfigureDeadlineForQualityUpdates"=-
+"ConfigureDeadlineForFeatureUpdates"=-
+"ConfigureDeadlineGracePeriod"=-
+

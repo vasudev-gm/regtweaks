@@ -17,7 +17,7 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 |  1903   | 19H1                    | April 2019 Update      | //    |
 
 The list is checked against:
-* Windows 10 RS 5 RTM Build 1809 Refresh (17763.316.rs5_release_svc_prod1.190205-1455) Enterprise
+* Windows 10 19H1 //
 * Please don't ask for Home/Pro versions!
 
 

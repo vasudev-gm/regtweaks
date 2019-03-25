@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2019 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
 <p align="center">
@@ -112,6 +112,7 @@ ToDo
 Research
 ------------
 
+* [Windows 10 editions overview](https://en.wikipedia.org/wiki/Windows_10_editions)
 * [Windows 10 and Server 2016 Secure Baseline Group Policy](https://github.com/mxk/win10-secure-baseline-gpo)
 * [Crash Course in Upgrading to Windows 10](https://resources.office.com/ww-landing-M365PD-EOL-crash-course-in-upgrading-to-windows-10-ebook.html?LCID=en)
 * [Windows monthly security and quality updates overview](https://blogs.windows.com/windowsexperience/2018/12/10/windows-monthly-security-and-quality-updates-overview/#Pfmob218dxfU6WCB.97)

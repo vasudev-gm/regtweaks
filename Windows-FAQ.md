@@ -1,8 +1,13 @@
+### How do I list all installed Printers in my Network/PC?
+
+Control Panel and click on the" Devices and Printers", you see the list under "Printers".
+Alternative you can see it via PowerShell: `Get-Printer | Format-List`
+
 ### How do I do manually execute updates only below Build 1709?
 
 Only Windows 10 Build 1709 and higher has a button for this, so let's do this via takeown and icacls. 
 
-```
+```bash
 takeown /f "%WINDIR%\System32\UsoClient.exe" /a
 icacls "%WINDIR%\System32\UsoClient.exe" /inheritance:r /remove "Adminstrator" "Authentificated Users"" "Users" "System"
 ```

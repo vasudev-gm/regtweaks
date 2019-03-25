@@ -118,9 +118,15 @@ Research
 * [Vista Registry Editor - Examples of .Reg Files](http://www.computerperformance.co.uk/vista/vista_registry_tweaks.htm)
 * [Sevenforums Tutorial Index](http://www.sevenforums.com/tutorials/257-windows-7-tutorial-index.html)
 * [Microsoft Is Downloading 6GB of Windows 10 Updates Without User’s Consent (nextbigwhat.com)](http://www.nextbigwhat.com/microsoft-is-downloading-6gb-of-windows-10-updates-without-users-consent-297/)
-* [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
-* [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
-* [NTLite](https://www.ntlite.com)
-* [WinToolkit](https://www.Wincert.net)
 * [Patch Tuesday Dashboard](https://patchtuesdaydashboard.com)
 * [NSA Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)
+
+#### Articles
+- [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)
+- [SiSyPHuS Win10: Studie zu Systemaufbau, Protokollierung, Härtung und Sicherheitsfunktionen in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/SiSyPHuS_node.html)
+
+#### Optional Tools
+* [NTLite](https://www.ntlite.com)
+* [WinToolkit](https://www.Wincert.net)
+* [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
+* [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)

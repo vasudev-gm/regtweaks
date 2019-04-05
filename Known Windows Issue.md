@@ -14,7 +14,9 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 |  1709   | Redstone 3 (RS3)        | Fall Creators Update   | 16299 |
 |  1803   | Redstone 4 (RS4)        | April 2018 Update      | 17134 |
 |  1809   | Redstone 5 (RS5)        | October 2018 Update    | 17763 |
-|  1903   | 19H1                    | April 2019 Update      | //    |
+|  1903   | 19H1                    | May 2019 Update      | //    |
+|  1903   | 20H2                    | //     | //    |
+|  1903   | 20H3                    | //      | //    |
 
 The list is checked against:
 * Windows 10 19H1 //

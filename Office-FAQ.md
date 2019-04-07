@@ -47,3 +47,6 @@ cscript “C:\Program Files\Microsoft Office\Office16\ospp.vbs” /unpkey:OLD KE
 ```bash
 cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /inpkey:NEW KEY (ENTER)
 ```
+
+### Resources
+- [Microsoft Office 365/2019/2016 Activation Troubleshooter utility (download.microsoft.com)](https://aka.ms/diag_officeact) 

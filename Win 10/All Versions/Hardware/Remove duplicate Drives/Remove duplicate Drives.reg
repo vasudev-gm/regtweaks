@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+; Microsoft shows removable drives twice, once in the Explorer.exe and another instance on the left side to get quick access from "My PC".
+; This is not a bug "it's a feature".
+
+
+; PowerShell
+; ===========
+; Rename-Item -Path "HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}" -NewName "{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}.bak"
+; Rename-Item -Path 
+
+; "HKLM:SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}" -NewName "{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}.bak"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\-{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}]
+@="Removable Drives"
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\-{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}]
+@="Removable Drives"

@@ -1,3 +1,8 @@
+### How do I access UEFI firmware settings?
+
+Start an command prompt (CMD) with admin rights (Run as administrator) and type `shutdown /r /fw /t 0` which automatically reboots your PC and brings you right to the UEFI firmware setup menu.
+
+
 ### How do I list all installed Printers in my Network/PC?
 
 Control Panel and click on the" Devices and Printers", you see the list under "Printers".

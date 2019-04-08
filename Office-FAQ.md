@@ -1,3 +1,14 @@
+## Office Service Pack Direct Download Links
+
+| Version | Service Pack Version | Size in MB | Link |
+| ------------- | ------------- | ------------- | ------------- |
+| Office 2013 | SP 1 | 644.0 MB | [x86](https://www.microsoft.com/en-us/download/details.aspx?id=42017)
+|  | SP 1 | 774.0 MB | [x64](https://www.microsoft.com/en-us/download/details.aspx?id=42006)
+| Office 2010 | SP 2 | 639.0 MB | [x86](https://www.microsoft.com/en-us/download/details.aspx?id=39667)
+|  | SP 2 | 630.0 MB | [x64](https://www.microsoft.com/en-us/download/details.aspx?id=39647)
+| Office 2007 | SP 3 | 351.0 MB | [x64](https://www.microsoft.com/en-us/download/details.aspx?id=27838)
+| Office 2003 | SP 3 | 118.0 MB | [x64](https://www.microsoft.com/en-us/download/details.aspx?id=8)
+
 ## How long can I use MS Office without activation?
 
 If case you installed the 30-day trial copy of `Office 365`, you will be able to use Office for `30 days` without any issues. `Office 2016 or Office 2019` allows you to use it `5 days` as "extended trial period". 

@@ -19,10 +19,15 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 |  1903   | 20H3                    | //      | //    |
 
 The list is checked against:
-* Windows 10 19H1 //
+* Windows 10 19H1 (May Update): 
 * Please don't ask for Home/Pro versions!
 
 
+### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message
+* Download the [AppRPS.zip](https://aka.ms/AppRPS) and extract the `appraiser.bat` (right-click on it and run it as admin).
+* PowerShell will automatically search for possible problems and fix them.
+* (**optional**) You could do mentioned method above manually, search for the `*_APPRAISER_HumanReadable.xml` file once you found the file, open it and search for `DT_ANY_FMC_BlockingApplication` which should be set to `true`.
+* Repeat the process with a search for `LowerCaseLongPathUnexpanded`, this returns the path which might causes update problems, remove the path and re-start the update procedure. 
 
 
 Problem | Description | Workaround | Fix | Additional Information 

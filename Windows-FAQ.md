@@ -1,4 +1,8 @@
-### How do I access UEFI firmware settings?
+### How do I revert a Windows Defender Engine Upgrade?
+
+`“%programdata%\microsoft\windows defender\platform\\mpcmdrun.exe” -revertplatform`
+
+### How do I access my UEFI firmware settings?
 
 Start an command prompt (CMD) with admin rights (Run as administrator) and type `shutdown /r /fw /t 0` which automatically reboots your PC and brings you right to the UEFI firmware setup menu.
 

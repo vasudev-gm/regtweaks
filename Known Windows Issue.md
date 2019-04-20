@@ -19,8 +19,8 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 |  1903   | 20H3                    | //      | //   |
 
 The list is checked against:
-* Windows 10 19H1 (May Update): 
-* Please don't ask for Home/Pro versions!
+* Windows 10 1903 (May Update): `Windows 10 1903 Build 18362.30`
+* Please don't ask for Home/Pro versions, I simply won#t test them anymore.
 
 
 ### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message
@@ -179,7 +179,7 @@ Windows has the ability to warm patch microcode on boot using the mcupdate_Genui
 On AMD systems you _can block the update_ via [wushowhide.diagcab](https://support.microsoft.com/de-de/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window), since the update will effect your performance. But this is not recommended.  
 
 
-### Intel microcode updates
+### Intel Microcode updates
 
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 

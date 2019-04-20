@@ -28,7 +28,7 @@ CD /D "%~dp0"
 echo Batch was successfully started with admin privileges
 echo .
 cls
-Title Sandbox Installer
+Title Windows Home Edition Hyper-V Installer
 
 pushd "%~dp0"
 

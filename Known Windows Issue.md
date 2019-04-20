@@ -15,8 +15,8 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 |  1803   | Redstone 4 (RS4)        | April 2018 Update      | 17134 |
 |  1809   | Redstone 5 (RS5)        | October 2018 Update    | 17763 |
 |  1903   | 19H1                    | May 2019 Update      | //    |
-|  1903   | 20H2                    | //     | //    |
-|  1903   | 20H3                    | //      | //   |
+|  //   | 20H2                    | //     | //    |
+|  //   | 20H3                    | //      | //   |
 
 The list is checked against:
 * Windows 10 1903 (May Update): `Windows 10 1903 Build 18362.30`
@@ -32,19 +32,11 @@ The list is checked against:
 
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- | 
-[Abusing Exchange: One API call away from Domain Admin](https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/) | Unpatched 0-Day avbl. the issue is not fixed | reg delete HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa /v DisableLoopbackCheck /f | // | Microsoft needs to fix the hole in Microsoft Exchange Server
-False Notifications in Action Center | Windows 10 Notifications & Action Center notification messages may show a mismatch | Via PowerShell `Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppxManifest.xml” -verbose }` or delete `Usrclass.dat` file | // | //
-Flac files can't be played | Metadata being cut short in File Explorer and other locations | // | Fixed in 19H1 build | Will be fixed next patchday (unconfirmed?) 
-Event ID 1534 | User Profile Service Event 1534 warnings appear in Event Manager | See [here](https://social.technet.microsoft.com/Forums/en-US/50a24520-2ea6-47e7-995b-c2de46d2401d/user-profile-service-event-1534?forum=win10itpronetworking) | // | //
-Mapped network drive may fail to reconnect | You're unable to connect or re-connect to your network drive(s) | An [official workaround exist](https://support.microsoft.com/en-us/help/4471218/mapped-network-drive-may-fail-to-reconnect-in-windows-10-version-1809) | KB4469342 (rolled-out Dec. 2018) | //
-I'm getting Intel Audio Controller version 9.21.0.3755 Update | You get the Intel Audio Driver without any need via WUS | Uninstall it manually, see [here](https://blogs.msdn.microsoft.com/matthew_van_eerde/2018/10/12/if-windows-update-sent-you-intel-audio-controller-version-9-21-0-3755-by-mistake-uninstall-it/) or exclude the drivers/updates via [WuMgr](https://github.com/DavidXanatos/wumgr) | // | //
-HpqKbFiltr.sys BSOD after KB4464330 + KB4462919 | After using the updates while using HP printers/drivers you might receive a Bluescreen | ren C:\Windows\System32\drivers\HpqKbFiltr.sys HpqKbFiltr.sys_old | [x64](http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/10/hpqkbfiltrremove_160aa8311398d21242ef673ff567b30da5a1a315.exe) + [x86](http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/10/hpqkbfiltrremove_160aa8311398d21242ef673ff567b30da5a1a315.exe) | [Reddit](https://www.reddit.com/r/Windows10/comments/9n0bkw/one_of_these_quality_updates_can_cause_an/)
-Windows 10 Build 1809 deleted all my libary files | Files located under e.g. /Documents/ getting deleted during a feature upgrade | Make sure [KB4464330](https://support.microsoft.com/en-us/help/4464330/windows-10-update-kb4464330) is installed/integrated (make sure you search for updates during the upgrade). | Not fixable, but you can try to recover your files via e.g. [Recuva](https://www.ccleaner.com/recuva) | Reported over [MS forums](https://answers.microsoft.com/en-us/windows/forum/windows_10-files/windows-10-october-2018-update-version-1809/1a924008-ddba-48db-a96f-7b4bfef9039a) and MS pulled the build in the meantime and released a refresh build.
-LIPs (Language Interface Packs) aren't avbl. anymore | Microsoft removed the LIP's function in order to install additional lp's | // | // | LXP (Local Experience Packs) replacing the LIPs 
-Handwriting gets stored in a seperate file | Every touch/handwriting input is stored in a index file called '[WaitList.dat](https://b2dfir.blogspot.com/2016/10/touch-screen-lexicon-forensics.html)' which can be recovered (including passwords etc) | Delete `C:\Users\%User%\AppData\Local\Microsoft\InputPersonalization\TextHarvester\WaitList.dat` manually or use [wlrip.exe](https://github.com/B2dfir/wlrip) ([wlrip](https://github.com/B2dfir/wlrip)) | // | MS needs to fix it  
-Game stuttering | Game is starting to stutter if your OS is low on memory and doesn't free it's resources | [Script](https://www.reddit.com/r/Windows10/comments/9e1yy4/when_will_the_free_memory_bug_bug_be_fixed/) | Needs confirmation by MS | It's unclear if it's really a 'bug' 
-Edge, Apps and Store getting no updates or can't connect | Whenever Ipv6 is disabled the apps might not getting any connection | [Enable IPv6 in your network adapter](https://i.imgur.com/iTiBhqh.png) | // | MS needs to verify and fix it 
-My provider doesn't offer Printer Drivers | Since 1809 each print driver comes over WSUS, the print driver standards are now [Mopria](https://mopria.org/de/what-is-mopria) | You can only download the driver online or via Mopria (this is often offered by the manufracturer) as "normal" driver update | // | [This is by design](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/What-s-new-in-printing-in-Windows-10-version-1809/ba-p/267182) 
+
+
+
+## How to I uninstall a specific KB?
+Basically there are two methods, one explained [here](https://www.groovypost.com/howto/uninstall-a-windows-10-cumulative-update/) and in case you installed it as .cab file you can follow the [instructions given by MS](https://docs.microsoft.com/en-us/powershell/module/dism/remove-windowspackage?view=win10-ps).
 
 
 ## Install Language Packs on Build 1809 or higher

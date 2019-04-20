@@ -1,6 +1,6 @@
-The following _known issues_ are currently present in Windows 1809 (October Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
+The following _known issues_ are currently present in Windows 1903 (May Update '19). Before you submit any bug or feature request I simply expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
 
-This overview is provides 'as it comes' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix.
+The overview is provided 'as it comes' and is not designed to explain every little _fart_, it's more designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix by Microsoft.
 
 
 ## Windows 10 Builds Overview
@@ -14,13 +14,13 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 |  1709   | Redstone 3 (RS3)        | Fall Creators Update   | 16299 |
 |  1803   | Redstone 4 (RS4)        | April 2018 Update      | 17134 |
 |  1809   | Redstone 5 (RS5)        | October 2018 Update    | 17763 |
-|  1903   | 19H1                    | May 2019 Update      | //    |
+|  1903   | 19H1                    | May 2019 Update      | 18362.30 |
 |  //   | 20H2                    | //     | //    |
 |  //   | 20H3                    | //      | //   |
 
 The list is checked against:
 * Windows 10 1903 (May Update): `Windows 10 1903 Build 18362.30`
-* Please don't ask for Home/Pro versions, I simply won#t test them anymore.
+* Please don't ask for Home/Pro versions, I simply won't test them anymore.
 
 
 ### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message

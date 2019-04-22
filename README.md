@@ -112,6 +112,7 @@ ToDo
 Research
 ------------
 
+* [Windows Processor Requirements](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements)
 * [Windows 10 editions overview](https://en.wikipedia.org/wiki/Windows_10_editions)
 * [Windows 10 and Server 2016 Secure Baseline Group Policy](https://github.com/mxk/win10-secure-baseline-gpo)
 * [Crash Course in Upgrading to Windows 10](https://resources.office.com/ww-landing-M365PD-EOL-crash-course-in-upgrading-to-windows-10-ebook.html?LCID=en)

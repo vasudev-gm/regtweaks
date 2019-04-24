@@ -113,7 +113,7 @@ Research
 ------------
 
 * [Windows Processor Requirements](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements)
-* [Windows 10 editions overview](https://en.wikipedia.org/wiki/Windows_10_editions)
+* [Windows 10 Editions Overview](https://en.wikipedia.org/wiki/Windows_10_editions)
 * [Windows 10 and Server 2016 Secure Baseline Group Policy](https://github.com/mxk/win10-secure-baseline-gpo)
 * [Crash Course in Upgrading to Windows 10](https://resources.office.com/ww-landing-M365PD-EOL-crash-course-in-upgrading-to-windows-10-ebook.html?LCID=en)
 * [Windows monthly security and quality updates overview](https://blogs.windows.com/windowsexperience/2018/12/10/windows-monthly-security-and-quality-updates-overview/#Pfmob218dxfU6WCB.97)
@@ -122,6 +122,7 @@ Research
 * [Microsoft Is Downloading 6GB of Windows 10 Updates Without User’s Consent (nextbigwhat.com)](http://www.nextbigwhat.com/microsoft-is-downloading-6gb-of-windows-10-updates-without-users-consent-297/)
 * [Patch Tuesday Dashboard](https://patchtuesdaydashboard.com)
 * [NSA Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)
+* [Security baseline (DRAFT) for Windows 10 v1903 and Windows Server v1903](https://blogs.technet.microsoft.com/secguide/2019/04/24/security-baseline-draft-for-windows-10-v1903-and-windows-server-v1903/)
 
 #### Articles
 - [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)

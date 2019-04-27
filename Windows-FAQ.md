@@ -1,3 +1,8 @@
+### How do I check the current ReFS file system version?
+
+`fsutil fsinfo refsinfo c:` checks if C: drive uses [ReFS](https://en.wikipedia.org/wiki/ReFS) and gives you a bunch of details about the refs.sys driver. If you haven't formatted your drive with ReFS it will return `A local REFS volume is required for this operation.`.
+
+
 ### How do I revert a Windows Defender Engine Upgrade?
 
 `“%programdata%\microsoft\windows defender\platform\\mpcmdrun.exe” -revertplatform`

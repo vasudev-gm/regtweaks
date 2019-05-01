@@ -112,6 +112,7 @@ ToDo
 Research
 ------------
 
+* [Windows 10 release information](https://docs.microsoft.com/en-us/windows/release-information/)
 * [Windows Processor Requirements](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements)
 * [Windows 10 Editions Overview](https://en.wikipedia.org/wiki/Windows_10_editions)
 * [Windows 10 and Server 2016 Secure Baseline Group Policy](https://github.com/mxk/win10-secure-baseline-gpo)

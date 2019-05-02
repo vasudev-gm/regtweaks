@@ -223,7 +223,7 @@ I think [this guide here](https://www.windowscentral.com/how-use-dism-command-li
 
 #### Windows 1809 (2019) LTSB/LTSC doesn't include UWP apps does this means I can't install UWD drivers?!
 
-You still can use the old legacy drivers (if provided) and even without official support you are able to install the driver with the device manager "have-a-disk" method but several functions aren't available. Keep in mind that LTSB/LTSB is not meant to be used as "normal" OS (fpr e.g. exactly this reason). 
+You still can use the old legacy drivers (if provided) and even without official support you are able to install the driver with the device manager "have-a-disk" method but several functions aren't available. Keep in mind that LTSB/LTSB is not meant to be used as "normal" OS (for e.g. exactly this reason). 
 
 
 #### How do I enable Windows Sandbox Feature and how does it work?!

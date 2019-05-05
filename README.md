@@ -55,7 +55,7 @@ To answer the question how do I find all these registry tweaks, it's very easy a
 Reboot myth
 ------------
 
-There are several myths and disinformation about how the Windows Registry actually work, one of them is that you need to reboot. There are several methods in order to [apply registry changes without a reboot](https://www.thewindowsclub.com/how-to-make-registry-changes-take-effect-immediately-without-restart). 
+There are several myths and disinformation about how the Windows Registry actually work, one of them is that you need to reboot. There are several methods in order to [apply registry changes without a reboot](https://www.thewindowsclub.com/how-to-make-registry-changes-take-effect-immediately-without-restart).
 
 * Kill explorer.exe and restart it
 * Log off and then log back in (recommend)
@@ -76,7 +76,7 @@ Win 7 - 10 "Home" Group Policy Editor
 
 The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
 
-In order to get RDP (Remote Desktop Protocol) in Home Editions simply use [rdpwrap](https://github.com/stascorp/rdpwrap/). 
+In order to get RDP (Remote Desktop Protocol) in Home Editions simply use [rdpwrap](https://github.com/stascorp/rdpwrap/).
 
 
 
@@ -88,7 +88,7 @@ Project History
 - [x] 18.07.2017    GUI is done, some internal fixes before rolling out at the end of this year, some cleanups are necessary
 - [x] 13.04.2017    Second and last GUI beta test
 - [x] 26.01.2017    First beta GUI tests
-- [x] 31.05.2016    First internal GUI tests 
+- [x] 31.05.2016    First internal GUI tests
 - [x] 01.09.2015    All tweaks are now in English.
 - [x] 25.08.2015    Added some image creation tools which are able handle the registry tweaks.
 - [x] 18.08.2015    Initial upload and first release.

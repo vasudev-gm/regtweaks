@@ -1,7 +1,7 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
-*                        text=auto
-*.gitattributes  text
-.gitignore          text
+*                               text=auto
+*.gitattributes         text
+.gitignore                 text
 
 
 # Exclude files from exporting.

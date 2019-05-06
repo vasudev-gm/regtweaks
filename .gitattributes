@@ -1,4 +1,5 @@
-# Set the default behavior, in case people don't have core.autocrlf set.
+# Set the default behavior, in case people don't have core.autocrlf=true set.
+# https://help.github.com/en/articles/dealing-with-line-endings
 *                       text=auto
 *.gitattributes         text
 .gitignore              text
@@ -9,29 +10,47 @@
 .gitignore        export-ignore
 
 
-# Visual Studio Core ('cause I use it)
+# Visual Studio Studio/Core ('cause I use it)
+#*.sln            text eol=crlf
 #*.xproj          text eol=crlf
-*.props           text eol=crlf
 *.filters         text eol=crlf
+*.props           text eol=crlf
+*.vcproj          text eol=crlf
 *.vcxitems        text eol=crlf
 *.vcxproj         text eol=crlf
-*.vcproj          text eol=crlf
 
 
 # Declare files that will always have CRLF line endings on checkout.
 # https://help.github.com/en/articles/dealing-with-line-endings
 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 # https://git-scm.com/docs/gitattributes
-*.reg   text working-tree-encoding=UTF-16 eol=crlf
-*.sh                                      eol=lf
-*.ps1                                     eol=lf
+#*.reg                            diff=utf16strings
+#*.reg            text working-tree-encoding=UTF-16
+*.bat                                text eol=crlf
+*.cmd                                text eol=crlf
+*.inf                   diff linguist-language=INI
+*.ps1                                       eol=lf
+*.reg         diff master-encoding=UTF-16 eol=crlf
+*.sh                                        eol=lf
 
 
 # Denote all files that are truly binary and should not be modified.
-*.png           binary
-*.jpg           binary
+*.cer           binary
+*.dll           binary
 *.exe           binary
+*.jpg           binary
+*.pdf           binary
+*.png           binary
+*.rar           binary
+*.zip           binary
 
+# LaTeX
+*.BIB eol=crlf
+*.LYX eol=crlf
+*.TEX eol=crlf
+*.bib eol=crlf
+*.lyx eol=crlf
+*.tex eol=crlf
 
 # In Visual Studio Code set the following (encoding per language):
 # https://github.com/Microsoft/vscode/issues/4891
@@ -40,3 +59,8 @@
 #    "files.encoding": "utf16le",
 #    "files.autoGuessEncoding": true,
 #}
+
+# In your .gitconfig you need to set the following
+# https://stackoverflow.com/questions/777949/can-i-make-git-recognize-a-utf-16-file-as-text/21020607#21020607
+#[diff "utf16"]
+#    textconv = "iconv -f utf-16 -t utf-8"

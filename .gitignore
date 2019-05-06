@@ -2,7 +2,6 @@
 logs
 *.log
 
-
 # VS Code
 *.suo
 *.user
@@ -15,7 +14,6 @@ logs
 *.VisualState.xml
 TestResult.xml
 
-
 # Vim temporary files
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
@@ -24,27 +22,15 @@ Session.vim
 .netrwhist
 *~
 
-
-# Windows image file caches
+# Windows image file caches & ._*
 Thumbs.db
 ehthumbs.db
-
-
-# Thumbnails
-._*
-
 
 # Folder config file
 Desktop.ini
 
-
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-
-### Linux ###
-*~
-
 
 ### OSX ###
 .DS_Store

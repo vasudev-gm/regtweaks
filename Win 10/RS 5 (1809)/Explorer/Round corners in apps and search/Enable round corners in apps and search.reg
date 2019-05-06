@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Needs Windows 1809+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"ImmersiveSearch"=dword:00000001
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search\Flighting\Override]
+; Full seearch with 1
+; Only show the search
+"ImmersiveSearchFull"=dword:00000001
+; 0 = Search results aren't round
+; Possible values 1 - 50 (matter of taste)
+"CenterScreenRoundedCornerRadius"=dword:00000001
+
+; Unknown
+; "CloudMusic"=dword:00000001
+; "CortanaRiskMarketSupported"=dword:00000001
+; "ImageSnipSearch"=dword:00000001
+; "ImmersiveSearch"=dword:00000001
+

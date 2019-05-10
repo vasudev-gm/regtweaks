@@ -52,6 +52,7 @@ Find _hidden_ registry settings yourself
 To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video which you can find over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
 
 
+
 Reboot myth
 ------------
 
@@ -59,6 +60,7 @@ There are several myths and disinformation about how the Windows Registry actual
 
 * Kill explorer.exe and restart it
 * Log off and then log back in (recommend)
+
 
 
 Find hidden Windows features yourself
@@ -77,6 +79,13 @@ Win 7 - 10 "Home" Group Policy Editor
 The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
 
 In order to get RDP (Remote Desktop Protocol) in Home Editions simply use [rdpwrap](https://github.com/stascorp/rdpwrap/).
+
+
+
+File Encoding
+------------
+
+All registry (.reg) files are UTF-16 w/o BOM (also called _UCS-2 LE BOM_) encoded, [that's what Windows uses](https://docs.microsoft.com/en-us/windows/desktop/sysinfo/registry-value-types). The line ending is [CRLF](https://stackoverflow.com/questions/1552749/difference-between-cr-lf-lf-and-cr-line-break-types). Theoretically you can use UTF-16/UTF-8 with or without BOM but [some people do have some problems](https://github.com/CHEF-KOCH/regtweaks/issues/20) and that's why I decided to go with the official MS Windows standards.
 
 
 
@@ -99,7 +108,7 @@ ToDo
 ------------
 
 - [ ] Add Windows 'urgent' Bug List (requested) (mid-prio)
-- [ ] Add new tweaks (all time high-prio)
+- [ ] Add new tweaks (high-prio)
 - [ ] Adapt or integrate Mach2 within the GUI (Work-in-Process WiP)
 - [x] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (main-prio) in other words: GUI Client
 - [x] Delete duplicates (high-prio)

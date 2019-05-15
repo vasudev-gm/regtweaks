@@ -174,6 +174,8 @@ On AMD systems you _can block the update_ via [wushowhide.diagcab](https://suppo
 
 ### Intel Microcode updates
 
+[Intel Microcode Guidance 14. May 2019](https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/SA00233-microcode-update-guidance_05132019.pdf)
+
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 
 Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) v3 (Rev. 7) | 12. Mar. 2019 |
@@ -185,8 +187,25 @@ Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4346084/k
 Windows 10 1809 | [KB4465065](https://support.microsoft.com/en-us/help/4465065/kb4465065-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4465065) v3 (Rev. 4) | 09. Apr. 2019 |
 
 
+### Intel ZombieLoad
+
+Official [security advisor](https://seclists.org/oss-sec/2019/q2/111) - disable Hyper-Threading. [Intel official list those holes as critical](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00213.html).
+
+OS Version | KB | Patch | Updated
+--- | --- | --- | --- 
+Windows 10 1507 | [KB4494454](https://support.microsoft.com/en-us/help/4494454/kb4494454-intel-microcode-updates) | Via WUS | 14. May 2019
+Windows 10 1607 | [KB4494175](https://support.microsoft.com/en-us/help/4494175/kb4494175-intel-microcode-updates) | Via WUS | 14. May 2019
+Windows 10 1703 | [KB4494453](https://support.microsoft.com/en-us/help/4494453/kb4494453-intel-microcode-updates) | Via WUS | 14. May 2019
+Windows 10 1709 | [KB4494452](https://support.microsoft.com/en-us/help/4494452/kb4494452-intel-microcode-updates) | Via WUS | 14. May 2019
+Windows 10 1803 | // | // | //
+Windows 10 1809 | // | // | //
+Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | Windows Insider Program | 14. May 2019
+
+
+
 ## Acknowledgments and References
 
+* [Intel ZombieLoad](https://zombieloadattack.com/)
 * [Windows 10 release information](https://www.microsoft.com/en-us/itpro/windows-10/release-information)
 * [How to temporarily prevent a driver update from reinstalling in Windows 10](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window)
 * [How to keep apps removed from Windows 10 from returning during an update](https://docs.microsoft.com/en-us/windows/application-management/remove-provisioned-apps-during-update#registry-keys-for-provisioned-apps)

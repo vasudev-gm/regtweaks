@@ -198,15 +198,17 @@ Windows 10 1507 | [KB4494454](https://support.microsoft.com/en-us/help/4494454/k
 Windows 10 1607 | [KB4494175](https://support.microsoft.com/en-us/help/4494175/kb4494175-intel-microcode-updates) | Via WUS | 14. May 2019
 Windows 10 1703 | [KB4494453](https://support.microsoft.com/en-us/help/4494453/kb4494453-intel-microcode-updates) | Via WUS | 14. May 2019
 Windows 10 1709 | [KB4494452](https://support.microsoft.com/en-us/help/4494452/kb4494452-intel-microcode-updates) | Via WUS | 14. May 2019
-Windows 10 1803 | // | // | //
-Windows 10 1809 | // | // | //
+Windows 10 1803 | [KB4499167](https://support.microsoft.com/en-us/help/4499167) | Included in KB | 14. May 2019
+Windows 10 1809 | [KB4494441](https://support.microsoft.com/en-us/help/4494441) | Included in KB | 14. May 2019
 Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | Windows Insider Program | 14. May 2019
 
+Same as in Spectre, you have to wait until the OEM provides a BIOS updates.
 
 
 ## Acknowledgments and References
 
 * [Intel ZombieLoad](https://zombieloadattack.com/)
+* [SpeculationControl 1.0.13 PowerShell Script](https://www.powershellgallery.com/packages/SpeculationControl/1.0.13) (see [here](https://support.microsoft.com/en-us/help/4074629/understanding-the-output-of-get-speculationcontrolsettings-powershell) how tro use it)
 * [Windows 10 release information](https://www.microsoft.com/en-us/itpro/windows-10/release-information)
 * [How to temporarily prevent a driver update from reinstalling in Windows 10](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window)
 * [How to keep apps removed from Windows 10 from returning during an update](https://docs.microsoft.com/en-us/windows/application-management/remove-provisioned-apps-during-update#registry-keys-for-provisioned-apps)

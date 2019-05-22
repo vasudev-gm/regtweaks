@@ -32,6 +32,7 @@ The list is checked against:
 
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- | 
+[Microsoft's official list with known issues](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903) | Lists all known issues and workarounds for 1903 | // | // | //
 "This PC can't be upgraded to Windows 10" | "This PC can't be upgraded to Windows 10" error on a computer that has a USB device or SD card attached | A USB device or SD card that's inserted into the computer can cause this issue to occur. To work around this issue, remove the external media and restart the May 2019 Update installation. | // | [Microsoft Article](https://support.microsoft.com/en-us/help/4500988/windows-update-blocked-because-of-drive-reassignment/#!/en-us/help/4500988/windows-update-blocked-because-of-drive-reassignment) 
 
 

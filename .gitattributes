@@ -4,13 +4,11 @@
 *.gitattributes         text
 .gitignore              text
 
-
 # Exclude files from exporting.
 .gitattributes    export-ignore
 .gitignore        export-ignore
 
-
-# Visual Studio Studio/Core ('cause I use it)
+# Visual Studio Studio/Core (because I use it)
 #*.sln            text eol=crlf
 #*.xproj          text eol=crlf
 *.filters         text eol=crlf
@@ -18,7 +16,7 @@
 *.vcproj          text eol=crlf
 *.vcxitems        text eol=crlf
 *.vcxproj         text eol=crlf
-
+*.cs       diff=csharp
 
 # Declare files that will always have CRLF line endings on checkout.
 # https://help.github.com/en/articles/dealing-with-line-endings
@@ -27,12 +25,16 @@
 #*.reg                            diff=utf16strings
 #*.reg            text working-tree-encoding=UTF-16
 *.bat                                text eol=crlf
+*.BAT                                text eol=crlf
 *.cmd                                text eol=crlf
+*.CMD                                text eol=crlf
 *.inf                   diff linguist-language=INI
 *.ps1                                       eol=lf
 *.reg         diff master-encoding=UTF-16 eol=crlf
+*.REG         diff=astextplain
 *.sh                                        eol=lf
-
+*.txt                                     eol=crlf
+*.TXT                                     eol=crlf
 
 # Denote all files that are truly binary and should not be modified.
 *.cer           binary
@@ -45,12 +47,18 @@
 *.zip           binary
 
 # LaTeX
-*.BIB eol=crlf
-*.LYX eol=crlf
-*.TEX eol=crlf
-*.bib eol=crlf
-*.lyx eol=crlf
-*.tex eol=crlf
+*.BIB           eol=crlf
+*.LYX           eol=crlf
+*.TEX           eol=crlf
+*.bib           eol=crlf
+*.lyx           eol=crlf
+*.LYX           eol=crlf
+*.tex           eol=crlf
+
+# Handle Group Policy templates as text so they can be diff'ed
+*.adml          diff linguist-language=XML
+*.admx          diff linguist-language=XML
+*.adm           diff linguist-language=XML
 
 # In Visual Studio Code set the following (encoding per language):
 # https://github.com/Microsoft/vscode/issues/4891

@@ -33,6 +33,7 @@ The list is checked against:
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- | 
 [Microsoft's official list with known issues](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903) | Lists all known issues and workarounds for 1903 | // | // | //
+| Internet Explorer 11 does not start | IE 11 does not start under Windows 1903, 1809, 1803 | Execute it manually via cmd `"C:\Program Files\Internet Explorer\iexplore.exe" http://microsoft.com` | // | [MS is aware of the issue](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1809-and-windows-server-2019)
 
 
 

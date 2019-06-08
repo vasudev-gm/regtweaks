@@ -5,7 +5,7 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
   <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/1903.jpg")">
 </p>
 
-**Current Status: Over 700+ tweaks**
+**Current Status: Over 800+ tweaks**
 
 
 ![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
@@ -28,13 +28,10 @@ Project Goal(s)
 
 
 
-
 RegTweaks is free, but powered by your support
 ------------
 
-There are many reoccurring costs involved with maintaining free, open source and privacy respecting programs. As you probably know, developing quality applications takes much time and resources. Your donation will make it possible to keep my the current development standard.
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://github.com/CHEF-KOCH/Donations)
+There are many reoccurring costs involved with maintaining free, open source and privacy respecting programs. As you probably know, developing quality applications takes much time and resources. Your sponsoring will make it possible to release the [GUI](https://github.com/CHEF-KOCH/regtweaks/issues/14).
 
 
 Any problems, questions or something wrong?
@@ -107,7 +104,7 @@ Project History
 ToDo
 ------------
 
-- [ ] Add Windows 'urgent' Bug List (requested) (mid-prio)
+- [x] Add Windows 'known Issue' _Bug list_(requested) (mid-prio)
 - [ ] Add new tweaks (high-prio)
 - [ ] Adapt or integrate Mach2 within the GUI (Work-in-Process WiP)
 - [x] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (main-prio) in other words: GUI Client

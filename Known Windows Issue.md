@@ -34,6 +34,7 @@ Problem | Description | Workaround | Fix | Additional Information
 --- | --- | --- | --- | --- | 
 [Microsoft's official list with known issues](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903) | Lists all known issues and workarounds for 1903 | // | // | //
 | Internet Explorer 11 does not start | IE 11 does not start under Windows 1903, 1809, 1803 | Execute it manually via cmd `"C:\Program Files\Internet Explorer\iexplore.exe" http://microsoft.com` | // | [MS is aware of the issue](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1809-and-windows-server-2019)
+[Event Viewer may close or you may receive an error when using Custom Views](https://support.microsoft.com/de-de/help/4508640/event-viewer-may-close-or-you-may-receive-an-error-when-using-custom-v) | KB4503293 & KB4503327 breaking Even Viewer | `C:\ProgramData\Microsoft\Event Viewer\Views` and delete `View_0.xml` (or any other number) | [PowerShell Workaround by MS](https://support.microsoft.com/de-de/help/4508640/event-viewer-may-close-or-you-may-receive-an-error-when-using-custom-v) | Next Patchday | //
 
 
 

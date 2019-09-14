@@ -246,6 +246,11 @@ Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion` an
 Go to regedit: `HKEY_USERS\.DEFAULT\Software\Microsoft\IdentityCRL\StoredIdentities` there is an entry where you can delete the @(microsoft).com Key entry. Since Build 1809 there is a integrated option: Settings -> Accounts -> Your Info-> "Sign in with a local account instead" which can be choosed. 
 
 
+### How do I uninstall apps/software when uninstall option is missing?
+
+There are multiple ways, the official way is that you install [Windows Admin Center](https://docs.microsoft.com/de-de/windows-server/manage/windows-admin-center/understand/windows-admin-center), open WAC & click on `Apps & Features`. This allows you to uninstall Store and Win32 apps without the need to relay on PowerShell scripts or other non-microsoft software. 
+
+
 ## Official Reference Links
 - [Upgrade to Windows 10: FAQ](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq)
 - [Windows lifecycle fact sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)

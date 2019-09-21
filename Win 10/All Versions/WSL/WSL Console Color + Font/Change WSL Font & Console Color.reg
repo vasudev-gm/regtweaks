@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+; The path MUST be manually been set! BEFORE you apply the tweak otherwise nothing will be changed.
+; Example path:
+; C:_Program Files_WindowsApps_CanonicalGroupLimited.UbuntuonWindows_1808.2019.5627.0_x64__732434fdvvdv1fndgsc_ubuntu.exe
+
+[HKEY_CURRENT_USER\Console\C:_Program Files_WindowsApps_CanonicalGroupLimited.UbuntuonWindows_1808.2019.5627.0_x64__732434fdvvdv1fndgsc_ubuntu.exe]
+"CodePage"=dword:000001b5
+"ColorTable00"=dword:00000000
+"ColorTable08"=dword:009f9f9f
+"ColorTable01"=dword:00ff1f1f
+"ColorTable09"=dword:00ff7f7f
+"ColorTable02"=dword:0000ef00
+"ColorTable10"=dword:003fff3f
+"ColorTable03"=dword:00bfbf00
+"ColorTable11"=dword:00ffff3f
+"ColorTable04"=dword:000000ff
+"ColorTable12"=dword:007f7fff
+"ColorTable05"=dword:00cf00cf
+"ColorTable13"=dword:00ff3fff
+"ColorTable06"=dword:0000cfcf
+"ColorTable14"=dword:003fffff
+"ColorTable07"=dword:00dfdfdf
+"ColorTable15"=dword:00ffffff
+"PopupColors"=dword:00000007
+"InsertMode"=dword:00000000
+"ScreenBufferSize"=dword:003200c8
+"FaceName"="Consolas"
+"InterceptCopyPaste"=dword:00000001
+"FontSize"=dword:00140009
+"WindowPosition"=dword:00050037
+"WindowSize"=dword:003200c8
+

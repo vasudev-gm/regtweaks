@@ -1,3 +1,7 @@
+### Will there be a Windows 11?
+
+The rumour around Windows 11 started with [Computerworld](https://www.computerworld.com/article/3438856/call-me-crazy-but-windows-11-could-run-on-linux.html), the magazin or website is known to guess and spread a lot of FUD. No one can predict future developments but there are certainly [no plans](https://docs.microsoft.com/en-us/windows/release-information/) (publicly known at least) to go to Windows 11.
+
 ### My product key are attached to two devices and I exhausted the number of devices this key could work on
 
 There are multiple ways to solve it, the easiest method is to activate Windows via Skype. See [here](https://answers.microsoft.com/en-us/windows/forum/all/deactivate-windows-10-digital-license-that-link-to/78e2e8f1-d932-4754-9bec-75afb8fee4c4), [here](https://answers.microsoft.com/en-us/windows/forum/all/need-to-deactivate-windows-10-but-the-computer-is/3d1eb568-23a4-4d3f-acd0-a26baed3b40e) & [here](https://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install/deactivate-windows-10-product-key/85249989-d92b-4874-9009-3b9182cb68e3) for more details.

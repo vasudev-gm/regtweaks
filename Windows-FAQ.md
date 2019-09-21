@@ -1,21 +1,27 @@
+### My product key are attached to two devices and I exhausted the number of devices this key could work on
+
+There are multiple ways to solve it, the easiest method is to activate Windows via Skype. See [here](https://answers.microsoft.com/en-us/windows/forum/all/deactivate-windows-10-digital-license-that-link-to/78e2e8f1-d932-4754-9bec-75afb8fee4c4), [here](https://answers.microsoft.com/en-us/windows/forum/all/need-to-deactivate-windows-10-but-the-computer-is/3d1eb568-23a4-4d3f-acd0-a26baed3b40e) & [here](https://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install/deactivate-windows-10-product-key/85249989-d92b-4874-9009-3b9182cb68e3) for more details.
+
 ### How do I check the current ReFS file system version?
 
 `fsutil fsinfo refsinfo c:` checks if C: drive uses [ReFS](https://en.wikipedia.org/wiki/ReFS) and gives you a bunch of details about the refs.sys driver. If you haven't formatted your drive with ReFS it will return `A local REFS volume is required for this operation.`.
 
 
-### How do I revert a Windows Defender Engine Upgrade?
+### How do I revert a "Windows Defender Engine" upgrade?
 
-`“%programdata%\microsoft\windows defender\platform\\mpcmdrun.exe” -revertplatform`
+This can be done with a command prompt command with admin rights (Run as administrator): `“%programdata%\microsoft\windows defender\platform\\mpcmdrun.exe” -revertplatform`
+
 
 ### How do I access my UEFI firmware settings?
 
-Start an command prompt (CMD) with admin rights (Run as administrator) and type `shutdown /r /fw /t 0` which automatically reboots your PC and brings you right to the UEFI firmware setup menu.
+Start an command prompt (CMD/PowerShell) with admin rights (Run as administrator) and type `shutdown /r /fw /t 0` which automatically reboots your PC and brings you right to the UEFI firmware setup menu.
 
 
 ### How do I list all installed Printers in my Network/PC?
 
 Control Panel and click on the" Devices and Printers", you see the list under "Printers".
 Alternative you can see it via PowerShell: `Get-Printer | Format-List`
+
 
 ### How do I do manually execute updates only below Build 1709?
 

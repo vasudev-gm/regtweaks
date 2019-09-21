@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2019 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - present by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
 <p align="center">
@@ -46,14 +46,14 @@ Any problems, questions or something wrong?
 Find _hidden_ registry settings yourself
 ------------
 
-To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video which you can find over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
+To answer the question how do I find all those registry tweaks, it's very easy and explained with pictures and an example video, which you can find over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
 
 
 
 Reboot myth
 ------------
 
-There are several myths and disinformation about how the Windows Registry actually work, one of them is that you need to reboot. There are several methods in order to [apply registry changes without a reboot](https://www.thewindowsclub.com/how-to-make-registry-changes-take-effect-immediately-without-restart).
+There are several myths and misinformation about how the Windows Registry actually work, one of them is that you need to reboot. There are several methods in order to [apply registry changes without a reboot](https://www.thewindowsclub.com/how-to-make-registry-changes-take-effect-immediately-without-restart).
 
 * Kill explorer.exe and restart it
 * Log off and then log back in (recommend)
@@ -89,6 +89,7 @@ All registry (.reg) files are UTF-16 w/o BOM (also called _UCS-2 LE BOM_) encode
 Project History
 ------------
 
+- [x] 01.02.2019    Microsoft Windows & Office FAQ added (overview of most asked questions with answers)
 - [x] 15.09.2018    Placeholder Logo added
 - [x] 04.05.2018    Mach2 will be integrated into the GUI, until then I provide links to the project and an external guide how to find hidden Windows features in Insider Builds
 - [x] 18.07.2017    GUI is done, some internal fixes before rolling out at the end of this year, some cleanups are necessary
@@ -135,8 +136,9 @@ Research
 - [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)
 - [SiSyPHuS Win10: Studie zu Systemaufbau, Protokollierung, Härtung und Sicherheitsfunktionen in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/SiSyPHuS_node.html)
 
-#### Optional Tools
+#### Optional Tools and Scripts
 * [NTLite](https://www.ntlite.com)
 * [WinToolkit](https://www.Wincert.net)
 * [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
+* [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script) 

@@ -1,6 +1,30 @@
+### "The parameter is incorrect": Disable Services Status via registry (workaround)
+
+You may have experienced this error message, which says: "The parameter is incorrect" whenever you try to disable/shutdown (manually) a running service via services.msc (Serveses Tool). This is not because MS does not want it, it is because the registry parameters are not often been updated by MS through their own services tool.
+
+* Go into your registry, open the "services hub": `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\` which stores all the services (incl. the enabled/disabled ones).
+* Locate the REG_DWORD with `Start` as name.
+* The "Start" parameter has several states:
+```
+0 = Boot
+1 = System
+2 = Automatic
+3 = Manual
+4 = Disabled
+```
+
+Keep in mind that disabling some services can cause some OS instability (Windows does not boot etc.). **Make sure you make a backup before you touch/test your service change.**
+
+
+### File compression via Compact(GUI)
+
+You can use external tools like WinRar, 7-Zip & Co. to compress your data files, however Windows itself has the ability to do this via [compact](https://technet.microsoft.com/en-au/library/bb490884.aspx) (see [here for more details](https://msdn.microsoft.com/en-us/library/windows/desktop/hh920921(v=vs.85).aspx)). There is a GUI, called [CompactGUI](https://github.com/ImminentFate/CompactGUI) which allows you to easily use compact in case you're not familiar with the command line structure. The GitHub user [theChaosCoder](https://github.com/theChaosCoder), has found a _new way_ to even further compress data files and wrote a [small guide about it here](https://github.com/ImminentFate/CompactGUI/issues/190).
+
+
 ### Will there be a Windows 11?
 
 The rumour around Windows 11 started with [Computerworld](https://www.computerworld.com/article/3438856/call-me-crazy-but-windows-11-could-run-on-linux.html), the magazin or website is known to guess and spread a lot of FUD. No one can predict future developments but there are certainly [no plans](https://docs.microsoft.com/en-us/windows/release-information/) (publicly known at least) to go to Windows 11.
+
 
 ### My product key are attached to two devices and I exhausted the number of devices this key could work on
 

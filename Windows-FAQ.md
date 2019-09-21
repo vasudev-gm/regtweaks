@@ -1,3 +1,10 @@
+### How do I get tabbed explorer (sets) back?
+
+Microsoft oficially [dropped the sets idea](https://www.howtogeek.com/411932/windows-10s-sets-app-tabs-are-no-more/), according to some official discussions it seems to have caused too many problems (mostly with third-party programs), so that they decided to work on a re-written solution (shell based). There are mainly two solutions, paid & open source:
+
+* [Stardock’s Groupy](https://www.stardock.com/products/groupy/) (paid)
+* [multrin](https://github.com/sentialx/multrin) (open source & works on _macOS & Linux too_)
+
 ### "The parameter is incorrect": Disable Services Status via registry (workaround)
 
 You may have experienced this error message, which says: "The parameter is incorrect" whenever you try to disable/shutdown (manually) a running service via services.msc (Serveses Tool). This is not because MS does not want it, it is because the registry parameters are not often been updated by MS through their own services tool.

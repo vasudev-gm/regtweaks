@@ -1,3 +1,7 @@
+### How do I get my BitLocker Recovery Key back?
+
+There is a full guide avbl. over [here](https://www.top-password.com/blog/tag/get-bitlocker-recovery-key-from-ad-powershell/). Another way is to manually backup the key (48 digit recovery key) via CMD: `manage-bde -protectors C: -get`. I do not reccommand that you backup your key online via the official website `onedrive.com/recoverykey` due to security reasons.
+
 ### How do I get tabbed explorer (sets) back?
 
 Microsoft oficially [dropped the sets idea](https://www.howtogeek.com/411932/windows-10s-sets-app-tabs-are-no-more/), according to some official discussions it seems to have caused too many problems (mostly with third-party programs), so that they decided to work on a re-written solution (shell based). There are mainly two solutions, paid & open source:
@@ -269,7 +273,7 @@ You still can use the old legacy drivers (if provided) and even without official
 
 ### How do I enable Windows Sandbox Feature and how does it work?!
 
-Windows 10 1903 Build 18305 (or higher) is required to enable the internal Sandbox function. There is a techniqual explanation given [here]https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849).
+Windows 10 1903 Build 18305 (or higher) is required to enable the internal Sandbox function. There is a techniqual explanation given [here](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849).
 
 
 ### How do I enable Windows Defender Sandbox feature?!

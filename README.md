@@ -2,7 +2,7 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 
 
 <p align="center">
-  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/1903.jpg")">
+  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/1909.jpg")">
 </p>
 
 **Current Status: Over 800+ tweaks**

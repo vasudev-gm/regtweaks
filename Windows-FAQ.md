@@ -1,3 +1,11 @@
+### How do I change default "User Shell Folders"
+
+The default folders for e.g. Desktop, History, My Pictures, SendTo, Cookies etc. can be changed within the registry:
+
+* `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
+
+**Changing it is not adviced** because this will have negative consequences, some applications are depending on those paths and might even crash if you change them. It is depending if the windows application or third-party application hardcoded the path or not.
+
 ### How do I get my BitLocker Recovery Key back?
 
 There is a full guide avbl. over [here](https://www.top-password.com/blog/tag/get-bitlocker-recovery-key-from-ad-powershell/). Another way is to manually backup the key (48 digit recovery key) via CMD: `manage-bde -protectors C: -get`. I do not reccommand that you backup your key online via the official website `onedrive.com/recoverykey` due to security reasons.

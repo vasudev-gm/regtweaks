@@ -1,3 +1,26 @@
+### Install and Configure Data Deduplication
+
+For those who are not aware what data deduplication is, [read this more information and a benchmark](https://www.virtualizationhowto.com/2015/02/windows-server-2012-r2-deduplication-real-world-test/).
+
+[Data Deduplication](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831434(v=ws.11)?redirectedfrom=MSDN) feature in removed from several Windows versions, however there is a method provided by the user "dreamss" to get this working on (almost) all Windows versions, incl. LTSB/LTSC and non server variants. He provides the files on his [cloud storage](https://filestorage.su/MDL/).
+
+* Download the package corresponding to your OS 
+* Extract the files in a folder and from there execute (under admin rights) via powershell:
+
+```ps
+# You might need to change the versions number (depending on which OS/version you downloaded) - the example is for Windows 10 Build 18362.1
+dism /online /add-package /packagepath:Microsoft-Windows-VdsInterop-Package-amd64-10.0.18362.1.cab /packagepath:Microsoft-Windows-VdsInterop-Package-amd64-10.0.18362.1-en-US.cab
+
+dism /online /add-package /packagepath:Microsoft-Windows-FileServer-ServerCore-Package-amd64-10.0.18362.1.cab /packagepath:Microsoft-Windows-FileServer-ServerCore-Package-amd64-10.0.18362.1-en-US.cab
+
+dism /online /add-package /packagepath:Microsoft-Windows-Dedup-ChunkLibrary-Package-amd64-10.0.18362.1.cab /packagepath:Microsoft-Windows-Dedup-ChunkLibrary-Package-amd64-10.0.18362.1-en-US.cab
+
+dism /online /add-package /packagepath:Microsoft-Windows-Dedup-Package-amd64-10.0.18362.1.cab /packagepath:Microsoft-Windows-Dedup-Package-amd64-10.0.18362.1-en-US.cab
+
+
+dism /online /enable-feature /featurename:Dedup-Core /all
+```
+
 ### How do I import multiple registry files at once?
 
 * Create a folder.

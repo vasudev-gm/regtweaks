@@ -30,8 +30,9 @@
 *.CMD                                text eol=crlf
 *.inf                   diff linguist-language=INI
 *.ps1                                       eol=lf
-*.reg         diff master-encoding=UTF-16 eol=crlf
-*.REG         diff=astextplain
+#*.reg         diff master-encoding=UTF-16 eol=crlf
+#*.REG         diff=astextplain
+*.reg            text working-tree-encoding=UTF-16
 *.sh                                        eol=lf
 *.txt                                     eol=crlf
 *.TXT                                     eol=crlf

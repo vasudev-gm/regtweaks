@@ -1,3 +1,16 @@
+### How do I import multiple registry files at once?
+
+* Create a folder.
+* Create a batch file within the newly created folder and execute it (_make sure the registry files are named correctly_).
+
+```sh
+@echo off
+reg import test (1).reg
+reg import test (2).reg
+reg import test (3).reg
+pause
+```
+
 ### How do I change default "User Shell Folders"
 
 The default folders for e.g. Desktop, History, My Pictures, SendTo, Cookies etc. can be changed within the registry:
@@ -306,7 +319,7 @@ There are multiple ways, the official way is that you install [Windows Admin Cen
 
 ### How do I get the taskbar transparent?
 
-There is no registry "hack" for this anymore, Microsoft closed this as "bug". But you can manipulate the explorer.exe file via e.g. [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) [(Microsoft Store link)](https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9).
+There is no registry "hack" for this anymore, Microsoft closed this as "bug". But you can manipulate the explorer.exe file via e.g. [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) [(Microsoft Store link)](https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9), [TaskDock](https://github.com/vhanla/TaskbarDock) or [StartIsBack++](https://www.startisback.com/).
 
 
 ## Official Reference Links

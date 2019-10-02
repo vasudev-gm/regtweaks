@@ -1,3 +1,29 @@
+### What is Windows Core OS?
+
+[Windows Core OS (short: WCOS)](https://blogs.microsoft.com/blog/2019/05/28/enabling-innovation-and-opportunity-on-the-intelligent-edge/) is basically a stripped down version of Windows 10. It comes with the bare minimum similar to Windows LTSC version but with UWP as core and not Win32. 
+
+They key benefit is that WCOS can be easier build, which makes it easy to introduce support for new hardware. 
+
+* No Win32 program support, it (by default) does not come with any Win32 programs (_a legacy program support mode is optional_)
+* UWP core only
+* Lighter and "universal" which means it's designed for "all" purposes, Laptops, Tablets & Desktop
+* Integrated Windows features can be shared across many different devices (requires WCOS)
+* Composable Shell ([CShell](https://youtu.be/YNxtMtlrm6U)) is supported, which is needed for e.g. the Action Center, Start menu, or taskbar
+* Provides an universal base for Windows
+* Faster OS updates (_MS claims to deliver and install updates in under a minute_)
+
+There are several codenames which indicates different types of WCOS versions, some of them are 
+* Santorini (foldable PCs, there are rumours saying it will be named as "Windows 10X") It comes with Win32 program support (sandboxed).
+* Aruba - Provides Win32 program support (sandboxed)
+* Oasis
+* GameCore
+* Centaurus - Centaurus is the codename Microsoft uses for Santorini on foldable PCs
+* Pegasus - Santorini for other form factors
+
+Old codenames (replaced):
+* Andromeda OS (outdated, Windows 10 S)
+* Polaris (outdated, Windows 10 S)
+
 ### Install and Configure Data Deduplication
 
 For those who are not aware what data deduplication is, [read this more information and a benchmark](https://www.virtualizationhowto.com/2015/02/windows-server-2012-r2-deduplication-real-world-test/).

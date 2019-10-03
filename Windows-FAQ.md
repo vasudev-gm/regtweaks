@@ -13,7 +13,7 @@ They key benefit is that WCOS can be easier build, which makes it easy to introd
 * Faster OS updates (_MS claims to deliver and install updates in under a minute_)
 
 There are several codenames which indicates different types of WCOS versions, some of them are 
-* Santorini (foldable PCs, there are rumours saying it will be named as "Windows 10X") It comes with Win32 program support (sandboxed).
+* ~~Santorini~~ now called [Windows 10X](https://blogs.windows.com/windowsexperience/2019/10/02/introducing-windows-10x-enabling-dual-screen-pcs-in-2020/) for foldable PCs & dual-screen devices and designed to run UWP apps, but it also comes with Win32 program support (sandboxed).
 * Aruba - Provides Win32 program support (sandboxed)
 * Oasis
 * GameCore

@@ -1,6 +1,9 @@
-The following _known issues_ are currently present in Windows 1903 (May Update '19). Before you submit any bug or feature request I simply expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
+The following _known issues_ are currently present in Windows 1903 (May Update '19). 
 
-The overview is provided 'as it comes' and is not designed to explain every little _fart_, it's more designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix by Microsoft.
+
+Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
+
+The overview is provided 'as is' and is not designed to explain every little _fart_, it's more designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix by Microsoft.
 
 
 ## Windows 10 Builds Overview
@@ -15,13 +18,9 @@ The overview is provided 'as it comes' and is not designed to explain every litt
 |  1803 (Apr. 2018)  | Redstone 4 (RS4)        | April 2018 Update      | 17134 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1809 (Oct. 2018)  | Redstone 5 (RS5)        | October 2018 Update    | 17763 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1903 (May 2019)  | 19H1                    | May 2019 Update      | 18362.30 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-|  1909   | 19H2                    |  //    | // | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
-|  //   | 20H2                    | //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-|  //   | 20H3                    | //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-
-The list is checked against:
-* Windows 10 1903 (May Update): `Windows 10 1903 Build 18362.30`
-* Please don't ask for Home/Pro versions, I simply won't test them anymore.
+|  1909   | 19H2                    |  //    |  //  | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
+|  //   | 20H2                    |   //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
+|  //   | 20H3                    |  //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 
 
 ### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message
@@ -31,13 +30,10 @@ The list is checked against:
 * Repeat the process with a search for `LowerCaseLongPathUnexpanded`, this returns the path which might causes update problems, remove the path and re-start the update procedure. 
 
 
-Problem | Description | Workaround | Fix | Additional Information 
---- | --- | --- | --- | --- | 
-[Microsoft's official list with known issues](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903) | Lists all known issues and workarounds for 1903 | // | // | //
-| Internet Explorer 11 does not start | IE 11 does not start under Windows 1903, 1809, 1803 | Execute it manually via cmd `"C:\Program Files\Internet Explorer\iexplore.exe" http://microsoft.com` | // | [MS is aware of the issue](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1809-and-windows-server-2019)
-[Event Viewer may close or you may receive an error when using Custom Views](https://support.microsoft.com/de-de/help/4508640/event-viewer-may-close-or-you-may-receive-an-error-when-using-custom-v) | KB4503293 & KB4503327 breaking Even Viewer | `C:\ProgramData\Microsoft\Event Viewer\Views` and delete `View_0.xml` (or any other number) | [PowerShell Workaround by MS](https://support.microsoft.com/de-de/help/4508640/event-viewer-may-close-or-you-may-receive-an-error-when-using-custom-v) | Next Patchday | //
+## Microsoft "Health Dashboard" (showns all known Windows problems)
 
-
+The official dashboard can be found over here:
+* [https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903)
 
 
 ## How to I uninstall a specific KB?
@@ -178,18 +174,18 @@ On AMD systems you _can block the update_ via [wushowhide.diagcab](https://suppo
 
 ### Intel Microcode Updates
 
-[Intel Microcode Guidance 14. May 2019](https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/SA00233-microcode-update-guidance_05132019.pdf)
+[Intel Microcode Guidance 14. May 2019 (.pdf)](https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/SA00233-microcode-update-guidance_05132019.pdf)
 
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 
-Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) v3 (Rev. 7) | 11. June. 2019 |
+Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) v3 (Rev. 8) | 30. Aug. 2019 |
 Windows 10 1511 | // | // | // |
-Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4346087/kb4346087-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346087) v4 (Rev. 10) | 11. June. 2019 |
-Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4346086/kb4346086-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346086) v4 (Rev. 9) | 11. June. 2019 |
-Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4346085/kb4346085-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346085) v5 (Rev. 10) | 11. June. 2019 |
-Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4346084/kb4346084-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4346084) v3 (Rev. 7) | 11. June. 2019 |
-Windows 10 1809 | [KB4465065](https://support.microsoft.com/en-us/help/4465065/kb4465065-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4465065) v3 (Rev. 4) | 11. June. 2019 |
-Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=4497165) v1 (Rev. 1) | 14. May 2019 |
+Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4346087/kb4346087-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346087) v3 (Rev. 12) | 30. Aug. 2019 |
+Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4346086/kb4346086-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346086) v3 (Rev. 10) | 30. Aug. 2019 |
+Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4346085/kb4346085-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346085) v3 (Rev. 11) | 30. Aug. 2019 |
+Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4346084/kb4346084-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4346084) v2 (Rev. 5) | 30. Aug. 2019 |
+Windows 10 1809 | [KB4465065](https://support.microsoft.com/en-us/help/4465065/kb4465065-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4465065) v2 (Rev. 3) | 30. Aug. 2019 |
+Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=4497165) v3 (Rev. 3) | 30. Aug 2019 |
 
 
 ### Intel ZombieLoad
@@ -218,3 +214,4 @@ Same as in Spectre, you have to wait until the OEM provides a BIOS updates.
 * [How to keep apps removed from Windows 10 from returning during an update](https://docs.microsoft.com/en-us/windows/application-management/remove-provisioned-apps-during-update#registry-keys-for-provisioned-apps)
 * [When Microsoft patches security vulnerabilities and when not](https://www.microsoft.com/en-us/msrc/windows-security-servicing-criteria?rtc=2) - see also [MSRC (.pdf)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2A3xt)
 * [Intel Microcode Update Guidance (.pdf)](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/04/microcode-update-guidance.pdf)
+* [Windows lifecycle fact sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)

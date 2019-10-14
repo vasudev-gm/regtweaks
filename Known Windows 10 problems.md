@@ -18,7 +18,7 @@ The overview is provided 'as is' and is not designed to explain every little _fa
 |  1803 (Apr. 2018)  | Redstone 4 (RS4)        | April 2018 Update      | 17134 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1809 (Oct. 2018)  | Redstone 5 (RS5)        | October 2018 Update    | 17763 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1903 (May 2019)  | 19H1                    | May 2019 Update      | 18362.30 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-|  1909   | 19H2                    |  //    |  //  | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
+|  1909 (Oct. 2019)  | 19H2                    |  October Update    |  18363.418 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
 |  //   | 20H2                    |   //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 |  //   | 20H3                    |  //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 
@@ -203,6 +203,16 @@ Windows 10 1809 | [KB4494441](https://support.microsoft.com/en-us/help/4494441) 
 Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | Windows Insider Program | 14. May 2019
 
 Same as in Spectre, you have to wait until the OEM provides a BIOS updates.
+
+
+## Switching from 1903/1909 "Slow Ring" (Insiders) to Stable Builds without the need of an Upgrade
+* Check if `%systemroot%\servicing\Packages` contains `Package_for_RollupFix18362.10022..mum` (if not the script will return an error!).
+* Download [18362-WIS2RP.zip](https://forums.mydigitallife.net/threads/discussion-windows-10-1903-9-final-build-18362-3-xxx-pc-19h1-2-release.79259/page-298) and extract it.
+* Download [KB4517389](https://uupdump.ml/known.php?q=18362.418) in a .CAB format and re-name it correctly to e.g. `windows10.0-kb4517389-x64.cab`. Copy the file into the same folder as you extracted your _18362-WIS2RP.zip_.
+* Start `18362-WIS2RP.cmd` with admin rights (right-click, run as admin).
+* Restart Windows, now you are on Windows Build 1903 18362 or 1909 Build 18363.
+
+
 
 
 ## Acknowledgments and References

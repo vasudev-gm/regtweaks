@@ -207,12 +207,11 @@ Same as in Spectre, you have to wait until the OEM provides a BIOS updates.
 
 ## Switching from 1903/1909 "Slow Ring" (Insiders) to Stable Builds without the need of an Upgrade
 * Check if `%systemroot%\servicing\Packages` contains `Package_for_RollupFix18362.10022..mum` (if not the script will return an error!).
-* Download [18362-WIS2RP.zip](https://forums.mydigitallife.net/threads/discussion-windows-10-1903-9-final-build-18362-3-xxx-pc-19h1-2-release.79259/page-298) and extract it.
-* Download [KB4517389](https://uupdump.ml/known.php?q=18362.418) in a .CAB format and re-name it correctly to e.g. `windows10.0-kb4517389-x64.cab`. Copy the file into the same folder as you extracted your _18362-WIS2RP.zip_.
+* Download [18362-WIS2RP.cmd](https://github.com/CHEF-KOCH/regtweaks/blob/master/Win%2010/Slow-Ring%20to%20Release/18362-WIS2RP.cmd) and put it into a folder.
+* Download [KB4517389](https://uupdump.ml/known.php?q=18362.418) in a .CAB format and rename it correctly to e.g. `windows10.0-kb4517389-x64.cab`. Copy the file into the same folder as you extracted your _18362-WIS2RP.cmd_.
 * Start `18362-WIS2RP.cmd` with admin rights (right-click, run as admin).
-* Restart Windows, now you are on Windows Build 1903 18362 or 1909 Build 18363.
-
-
+* Restart Windows after the script is finished.
+* Now you are on Windows Build 1903 18362 or 1909 Build 18363 without the need to "upgrade" Windows 10.
 
 
 ## Acknowledgments and References

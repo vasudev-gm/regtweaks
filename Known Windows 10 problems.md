@@ -206,6 +206,45 @@ Same as in Spectre, you have to wait until the OEM provides a BIOS updates.
 
 
 ## Switching from 1903/1909 "Slow Ring" (Insiders) to Stable Builds without the need of an Upgrade
+* You need Windows as original (unpatched) version Build 18362.1.
+* Mount the install.wim 
+
+```bash
+md C:\Mount
+dism /Mount-Image /ImageFile:E:\sources\install.wim /Index:1 /MountDir:C:\Mount /ReadOnly
+```
+
+* Copy via [NSudo](https://github.com/M2Team/NSudo/releases) the missing components:
+```bash
+NSudo.exe -U:T -P:E cmd.exe /c robocopy C:\Mount\Windows\WinSxS %SystemRoot%\WinSxS /R:0 /W:0 /NFL /NDL /J /S /DCOPY:DAT /XC /XN /XO /XX /XF migration.xml pending.xml poqexec.log /XD Backup Catalogs FileMaps InstallTemp ManifestCache Temp
+```
+* Import the following reg
+
+```bash
+reg query HKLM\COMPONENTS >nul 2>&1 && (net stop trustedinstaller >nul 2>&1 &reg unload HKLM\COMPONENTS >nul 2>&1)
+reg load HKLM\COMPONENTS C:\Mount\Windows\System32\Config\COMPONENTS
+reg export HKLM\COMPONENTS\CanonicalData\Deployments "%temp%\Deployments.reg"
+reg export HKLM\COMPONENTS\DerivedData\Components "%temp%\Components.reg"
+reg unload HKLM\COMPONENTS
+reg load HKLM\COMPONENTS %SystemRoot%\System32\Config\COMPONENTS
+reg import "%temp%\Deployments.reg"
+reg import "%temp%\Components.reg"
+for /f "tokens=* delims=" %i in ('reg query HKLM\COMPONENTS\DerivedData\VersionedIndex ^| findstr /i VersionedIndex') do reg delete "%i" /f
+reg unload HKLM\COMPONENTS
+del /f /q "%temp%\*.reg"
+```
+* Execute DISM `Dism /Online /Cleanup-Image /RestoreHealth /Source:C:\Mount\Windows /LimitAccess`
+* Unmount the install.wim:
+
+```bash
+dism /Unmount-Image /MountDir:C:\Mount /Discard
+rd /s /q C:\Mount
+```
+* Start the Trusted Installer:
+```bash
+set _m=Package_for_RollupFix~31bf3856ad364e35~%PROCESSOR_ARCHITECTURE%~~18362.10022.1.30
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing\Packages\%_m%\Owners" /v %_m% /t REG_DWORD /d 0x20070 /f
+```
 * Check if `%systemroot%\servicing\Packages` contains `Package_for_RollupFix18362.10022..mum` (if not the script will return an error!).
 * Download [18362-WIS2RP.cmd](https://github.com/CHEF-KOCH/regtweaks/blob/master/Win%2010/Slow-Ring%20to%20Release/18362-WIS2RP.cmd) and put it into a folder.
 * Download [KB4517389](https://uupdump.ml/known.php?q=18362.418) in a .CAB format and rename it correctly to e.g. `windows10.0-kb4517389-x64.cab`. Copy the file into the same folder as you extracted your _18362-WIS2RP.cmd_.

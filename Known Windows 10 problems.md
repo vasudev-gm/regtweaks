@@ -253,6 +253,9 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicin
 * Now you are on Windows Build 1903 18362 or 1909 Build 18363 without the need to "upgrade" Windows 10.
 
 
+Microsoft officially released KB4509452 as SSU and KB4508451 in order to allow people to make the switch from Slow-Ring to the Final Build. The above mentioned workaround is not needed, after installing the KB's you get Windows 10 Build 1909 (18362.10024), which is as time of writing the latest Windows 10 1909 version.
+
+
 ## Acknowledgments and References
 
 * [Intel ZombieLoad](https://zombieloadattack.com/)

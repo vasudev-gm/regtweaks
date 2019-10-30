@@ -19,8 +19,8 @@ The overview is provided 'as is' and is not designed to explain every little _fa
 |  1809 (Oct. 2018)  | Redstone 5 (RS5)        | October 2018 Update    | 17763 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1903 (May 2019)  | 19H1                    | May 2019 Update      | 18362.30 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 |  1909 (Nov. 2019)  | 19H2                    |  November Update    |  18363.418 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
-|  //   | 20H2                    |   //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-|  //   | 20H3                    |  //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
+|  //   | 20H1                    |   //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
+|  //   | 20H2                    |  //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 
 
 ### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message
@@ -254,6 +254,11 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicin
 
 
 Microsoft officially released [KB4509452 as SSU](https://uupdump.ml/getfile.php?id=bef818f0-b193-4847-ada2-1beb1e20a014&file=windows10.0-kb4509452-x64.cab) and [KB4508451](https://uupdump.ml/getfile.php?id=bef818f0-b193-4847-ada2-1beb1e20a014&file=windows10.0-kb4508451-x64.cab) in order to allow people to make the switch from Slow-Ring to the Final Build. The above mentioned workaround is not needed, after installing the KB's you get Windows 10 Build 1909 (18362.10024), which is as time of writing the latest Windows 10 1909 version.
+
+
+## TLS specific fixes
+There are multiple issues with the [TLS client certificates](https://docs.microsoft.com/en-us/windows/win32/secauthn/prioritizing-schannel-cipher-suites), [MS official provides a workaround for it](https://support.microsoft.com/en-us/help/4528489/transport-layer-security-tls-connections-might-intermittently-fail-or).
+
 
 
 ## Acknowledgments and References
